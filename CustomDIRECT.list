@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,home-assistant.io
 DOMAIN-SUFFIX,miele.com
 DOMAIN-SUFFIX,raikkonien.top
 DOMAIN-SUFFIX,cftunnel.com
+DOMAIN-SUFFIX,argotunnel.com
 DOMAIN-SUFFIX,10jqka.com.cn
 IP-CIDR,66.5.0.0/24,no-resolve
 IP-CIDR,66.5.20.0/24,no-resolve
