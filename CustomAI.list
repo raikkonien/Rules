@@ -1,54 +1,124 @@
-# >> Perplexity
-DOMAIN-SUFFIX,perplexity.ai
+# ================================
+# AI Services Rules
+# ================================
 
-# >> POE
-DOMAIN-SUFFIX,poe.com
+# >> Keywords
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,openai
+
+
+# >> OpenAI / ChatGPT / Sora
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,sora.com
+
+
+# >> Claude / Anthropic
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# Claude Related
+DOMAIN-SUFFIX,datadoghq.com
+DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
+IP-CIDR,108.160.170.43/32,no-resolve
+
+
+# >> Microsoft Copilot / Bing / Azure AI
+DOMAIN,sydney.bing.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN-SUFFIX,ai.azure.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,copilot.microsoft.com
+
+
+# >> GitHub Copilot
+# api.*.githubcopilot.com is not required, since the IP & ASN information are coming from api.github.com
+# see https://github.com/SukkaW/Surge/pull/46#discussion_r1849641627
+DOMAIN,api.github.com
+DOMAIN,api.githubcopilot.com
+
+# >> xAI / Grok
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+
 
 # >> Meta AI
 DOMAIN-SUFFIX,meta.ai
 
-# >> Cloudflare AI Gateway
-DOMAIN,gateway.ai.cloudflare.com
 
-# >> Dify.AI
-DOMAIN-SUFFIX,dify.ai
+# >> Perplexity
+DOMAIN-SUFFIX,perplexity.ai
 
-# >> Jasper
-DOMAIN-SUFFIX,clipdrop.co
-DOMAIN-SUFFIX,jasper.ai
 
-# >> OpenArt
-DOMAIN-SUFFIX,openart.ai
+# >> POE
+DOMAIN-SUFFIX,poe.com
 
-# >> GitHub Copilot
-# api.*.githubcopilot.com is not required, since the ip & asn information are coming from api.github.com
-# see https://github.com/SukkaW/Surge/pull/46#discussion_r1849641627
-DOMAIN,api.github.com
 
-# >> Grok
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,x.ai
+# >> Mistral AI
+DOMAIN-SUFFIX,mistral.ai
 
-# >> groq
+
+# >> Groq
 DOMAIN-SUFFIX,groq.com
 
-# >> JetBrains AI
-DOMAIN,api.jetbrains.ai
+
+# >> Together AI
+DOMAIN,api.together.xyz
+
 
 # >> OpenRouter AI - Unified Relay
 # see https://github.com/SukkaW/Surge/pull/86 for reason that only root domain get proxied
 DOMAIN,openrouter.ai
 
+
+# >> Cloudflare AI Gateway
+DOMAIN,gateway.ai.cloudflare.com
+
+
+# >> Dify.AI
+DOMAIN-SUFFIX,dify.ai
+
+
+# >> Jasper / Clipdrop
+DOMAIN-SUFFIX,clipdrop.co
+DOMAIN-SUFFIX,jasper.ai
+
+
+# >> OpenArt
+DOMAIN-SUFFIX,openart.ai
+
+
 # >> Cursor
 DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
 
-# >> Claude Related
-DOMAIN-SUFFIX,datadoghq.com
-DOMAIN-SUFFIX,claudeusercontent.com
-IP-CIDR, 108.160.170.43/32,no-resolve
-DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
 
-# >> Other
-DOMAIN-SUFFIX, intercom.io
+# >> JetBrains AI / Grazie
+DOMAIN,api.jetbrains.ai
+DOMAIN-SUFFIX,jetbrains.ai
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+
+
+# >> Arkose / Auth / Feature Flags / Telemetry
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,identrust.com
+
+
+# >> Intercom
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+
+
+# >> Other AI / Developer Tools
 DOMAIN-SUFFIX,factory.ai
 DOMAIN-SUFFIX,snapcraft.io
