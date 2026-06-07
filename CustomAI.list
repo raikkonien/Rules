@@ -47,6 +47,10 @@ DOMAIN,api.githubcopilot.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
 
+# >> Akamai
+DOMAIN-SUFFIX,linode.com
+DOMAIN-SUFFIX,akamai.com
+
 
 # >> Meta AI
 DOMAIN-SUFFIX,meta.ai
