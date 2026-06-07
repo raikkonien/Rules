@@ -126,3 +126,7 @@ DOMAIN-SUFFIX,intercomcdn.com
 # >> Other AI / Developer Tools
 DOMAIN-SUFFIX,factory.ai
 DOMAIN-SUFFIX,snapcraft.io
+
+# >> Akamai
+DOMAIN-SUFFIX,linode.com
+DOMAIN-SUFFIX,akamai.com
