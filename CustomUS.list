@@ -45,3 +45,10 @@ DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,cleanmymac.com
 DOMAIN-SUFFIX,moonlock.com
 DOMAIN-SUFFIX,wiley.com
+DOMAIN,gspe1-ssl.apple.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,smoot.apple.com
+DOMAIN,guzzoni.apple.com
