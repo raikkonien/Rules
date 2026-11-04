@@ -7,3 +7,8 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
+
+# Claude Related
+DOMAIN-SUFFIX,datadoghq.com
+DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
+IP-CIDR,108.160.170.43/32,no-resolve
