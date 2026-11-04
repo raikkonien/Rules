@@ -1,1 +1,6 @@
-111
+# >> Keywords
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
+
+# >> OpenAI / ChatGPT / Sora
+DOMAIN-SUFFIX,sora.com
