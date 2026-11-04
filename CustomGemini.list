@@ -1,1 +1,8 @@
-111
+# BEGIN Antigravity fixed Seattle residential routing
+# App bundle, web, authentication, API, assets and updates.
+DOMAIN-KEYWORD,Antigravity
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity.google.com
+DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN-SUFFIX,googleapis.com
+# END Antigravity fixed Seattle residential routing
