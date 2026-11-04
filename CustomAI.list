@@ -2,33 +2,6 @@
 # AI Services Rules
 # ================================
 
-# >> Keywords
-DOMAIN-KEYWORD,anthropic
-DOMAIN-KEYWORD,claude
-DOMAIN-KEYWORD,openai
-
-
-# >> OpenAI / ChatGPT / Sora
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,sora.com
-
-
-# >> Claude / Anthropic
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,claudeusercontent.com
-
-# Claude Related
-DOMAIN-SUFFIX,datadoghq.com
-DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
-IP-CIDR,108.160.170.43/32,no-resolve
-
-
 # >> Microsoft Copilot / Bing / Azure AI
 DOMAIN,sydney.bing.com
 DOMAIN,copilot-proxy.githubusercontent.com
@@ -126,6 +99,5 @@ DOMAIN-SUFFIX,intercomcdn.com
 # >> Other AI / Developer Tools
 DOMAIN-SUFFIX,factory.ai
 DOMAIN-SUFFIX,snapcraft.io
-
 DOMAIN-SUFFIX,typesafe.ai
 DOMAIN-SUFFIX,exa.ai
