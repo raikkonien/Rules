@@ -8,17 +8,30 @@ DOMAIN-SUFFIX,googleapis.com
 # END Antigravity fixed Seattle residential routing
 DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN,cloudaicompanion.googleapis.com
+
+# Gemini / AI Studio / NotebookLM
+DOMAIN,gemini.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,ai.google.dev
+DOMAIN,makersuite.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,ai.studio
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
-DOMAIN-SUFFIX,ai.studio
-DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
+
+# Google Downloads
 DOMAIN,dl.google.com
 DOMAIN,us-central1-apt.pkg.dev
 DOMAIN,us-central1-yum.pkg.dev
-# 沿用参考的广告/统计例外：这些域名放行并跟随 Gemini，优先于广告规则。
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,doubleclick.net
+
 # YouTube API 与视频 CDN 使用同一出口。
 DOMAIN,youtubei.googleapis.com
 DOMAIN-SUFFIX,googlevideo.com
